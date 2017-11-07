@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@drawable/scene2"
+        android:clickable="true"
+        android:id="@+id/scene2">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_diary"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="150dp"
+            android:clickable="false"
+            android:id="@+id/clue_diary"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_laptop"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="180dp"
+            android:clickable="false"
+            android:id="@+id/clue_laptop"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_cap"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="550dp"
+            android:clickable="false"
+            android:id="@+id/clue_cap"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_chain"
+            android:clickable="false"
+            android:id="@+id/clue_chain"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_range"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="false"
+            android:id="@+id/clue_range"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_cd"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="350dp"
+            android:clickable="false"
+            android:id="@+id/clue_cd"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_cd_backpart"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="400dp"
+            android:clickable="false"
+            android:id="@+id/clue_cd_backpart"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_card"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="250dp"
+            android:clickable="false"
+            android:id="@+id/clue_card"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_dirt"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="480dp"
+            android:clickable="false"
+            android:id="@+id/clue_dirt"/>
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/clue_bag"
+            android:layout_marginTop="89dp"
+            android:layout_marginLeft="80dp"
+            android:clickable="false"
+            android:id="@+id/clue_bag"/>
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/penal_time">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text=" 1: 00"
+                android:id="@+id/time"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000FF"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:text="knife"
+                    android:textAlignment="center"
+                    android:textSize="13dp"
+                    android:id="@+id/clue1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000FF"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:text="Toy Car"
+                    android:textAlignment="center"
+                    android:textSize="13dp"
+                    android:id="@+id/clue2"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000FF"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:text="PANTING KNIFE"
+                    android:textAlignment="center"
+                    android:textSize="13dp"
+                    android:id="@+id/clue3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000FF"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:text="Toy Car"
+                    android:textAlignment="center"
+                    android:textSize="13dp"
+                    android:id="@+id/clue4"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000FF"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:text="PANTING KNIFE"
+                    android:textAlignment="center"
+                    android:textSize="13dp"
+                    android:id="@+id/clue5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000FF"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:text="Toy Car"
+                    android:textAlignment="center"
+                    android:textSize="13dp"
+                    android:id="@+id/clue6"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

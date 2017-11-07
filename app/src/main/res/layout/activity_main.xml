@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.zodiackiller.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/zodiaccover"
+        />
+
+    <Button
+        android:id="@+id/NewGame"
+        android:layout_width="100dp"
+        android:background="@drawable/newgame"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/high"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/highscore"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="160dp" />
+
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/exitgame"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="225dp" />
+
+    <TextSwitcher
+        android:id="@+id/muse"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/NewGame"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mus"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/NewGame"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="230dp"/>
+
+
+</RelativeLayout>
